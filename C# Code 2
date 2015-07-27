@@ -1,0 +1,26 @@
+using UnityEngine;
+using System.Collections;
+
+public class letter_counting : MonoBehaviour {
+
+	public string name = "Gabriel Robreno";
+	// Use this for initialization
+	void Start () 
+	{
+		string Input = "'Possesses' possesses a great number of s's";
+		int count = 0;
+		foreach (char item in Input) {
+			if (item == 's') 
+			{
+				count++;
+			}
+		}
+		print ("The total number of the 's' character in this sentence is " + count + ".");
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+	
+	}
+}
