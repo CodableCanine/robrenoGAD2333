@@ -24,3 +24,7 @@ public class robreno_week2_1 : MonoBehaviour
 	
 	}
 }
+//The big point of this assignment is that the variable 'name' is
+//supplied by the user in the Inspector, and the function 'Main' takes it and uses
+//it to fill in the variable of your choosing when it calls SayHello(name) and SayGoodbye(), 
+//two functions that you had to use in the assignment.
