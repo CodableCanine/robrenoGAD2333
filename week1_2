@@ -1,0 +1,19 @@
+using UnityEngine;
+using System.Collections;
+
+public class robreno_02 : MonoBehaviour {
+
+	public string firstName;
+	public string lastName;
+
+	// Use this for initialization
+	void Start () 
+	{
+		print ("Hey, look. " + firstName + " " + lastName + " actually did the homework!");
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
