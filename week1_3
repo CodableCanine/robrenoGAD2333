@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class robreno_03 : MonoBehaviour {
+
+	public int width;
+	public int length;
+	/*private int area;
+	private int perimeter;*/
+
+	// Use this for initialization
+	void Start () 
+	{
+		int area = width * length;
+		int perimeter = 2 * (width + length);
+		print ("The area equals " + area + ". The perimeter equals " + perimeter + ".");
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
